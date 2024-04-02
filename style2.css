@@ -10,3 +10,15 @@
     color: white;
     font-size: 26px;
 }
+.primeira-parte{
+    background-image: linear-gradient(black, grey);
+    height: 500px;
+    padding: 100px;
+    color: white;
+}
+.gordo{
+    padding: 15px;
+}
+.turixta{
+    padding: 15px;
+}
