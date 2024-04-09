@@ -3,22 +3,30 @@
     padding: 0;
 }
 .cabecalho{
-    background-color: #424e61;
+    background-image: linear-gradient(blue, black);
     display: flex;
+    justify-content: space-around;
 }
 .lista-cabecalho{
     color: white;
     font-size: 26px;
 }
+.lista-juvenil{
+    display: inline-block;
+}
 .primeira-parte{
-    background-image: linear-gradient(black, grey);
+    background-image: linear-gradient(black, blue);
     height: 500px;
     padding: 100px;
     color: white;
+    display: flex;
 }
 .gordo{
     padding: 15px;
 }
 .turixta{
     padding: 15px;
+}
+.foto-estudante{
+    width: 25%;
 }
