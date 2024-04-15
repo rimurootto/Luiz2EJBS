@@ -3,24 +3,29 @@
     padding: 0;
 }
 .cabecalho{
-    background-image: linear-gradient(blue, black);
+    background-image: linear-gradient(black,blue );
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .lista-cabecalho{
     color: white;
-    font-size: 26px;
+    font-size: 23px;
 }
-.lista-juvenil{
+.lista-item{
     display: inline-block;
+    color: white;
+    padding: 5px;
 }
 .primeira-parte{
-    background-image: linear-gradient(black, blue);
+    background-image: linear-gradient(blue,black );
     height: 500px;
     padding: 100px;
     color: white;
     display: flex;
+    align-items: center;
 }
+
 .gordo{
     padding: 15px;
 }
@@ -28,5 +33,5 @@
     padding: 15px;
 }
 .foto-estudante{
-    width: 25%;
+    width: 70%;
 }
